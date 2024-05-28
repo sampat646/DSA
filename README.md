@@ -19,7 +19,7 @@ In this repository, you'll find a collection of implementations for various patt
 
 The following coding patterns are covered in this repository:
 
-- [Invert Pyramid](patterns/Invert-pyramid.cpp)
+- [Invert Pyramid](DSA/patterns/Invert-pyramid.cpp)
 - [Invert Triangle](patterns/Invert-triangle.cpp)
 - [Normal Pattern](patterns/Normalpattern.cpp)
 - [Number Printing Triangle Shape](patterns/Numberprintingtriangleshape.cpp)
