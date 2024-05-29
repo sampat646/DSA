@@ -31,3 +31,5 @@ int main() {
 
     return 0;
 }
+//  output 2 is a prime number
+
