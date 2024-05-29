@@ -23,3 +23,4 @@ int main() {
     cout << "Reverse of " << num << " is: " << reversedNum << endl;
     return 0;
 }
+// output Reverse of 1227 is 7221
