@@ -29,4 +29,6 @@ int main() {
     else
         cout << num << " is not an Armstrong number." << endl;
     return 0;
+
+    //output 92727  is an Armstrong number.
 }
