@@ -29,4 +29,7 @@ int main() {
     int result = addDigits(num);
     cout << "The sum of digits for " << num << " is: " << result << endl;
     return 0;
+
+    
 }
+// output 1
