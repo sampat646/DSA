@@ -28,3 +28,4 @@ int main() {
         cout << userNum << " is not a palindrome number." << endl;
     return 0;
 }
+// output 121 is a plandrome number.
