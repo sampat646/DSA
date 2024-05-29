@@ -24,3 +24,5 @@ int main() {
     cout << "The GCD of " << num1 << " and " << num2 << " is: " << greatest_common_divisor << endl;
     return 0;
 }
+
+// output The GCD of : 4,8 is: 4
