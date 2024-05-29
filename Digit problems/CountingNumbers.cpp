@@ -17,3 +17,5 @@ int main() {
     cout << "Number of digits in " << num << " is: " << digitCount << endl;
     return 0;
 }
+
+// output Number of digits in 1234 is: 4
