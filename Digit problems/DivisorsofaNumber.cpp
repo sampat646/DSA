@@ -30,3 +30,4 @@ int main() {
     cout << endl;
     return 0;
 }
+// output "Divisors of 6 are: 1 2 3 6
