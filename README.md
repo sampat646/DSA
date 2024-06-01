@@ -44,6 +44,13 @@ The following digit problems are covered in this repository:
 
 Each digit problem directory contains problem statements, solutions, and explanations.
 
+## Recursion problem
+
+The following digit problems are covered in this repository:
+- [printing_1_to_N_using_backtracking](Recursion/printing_1_to_N_using_backtracking.cpp)
+- [printing_N_to_1](Recursion/printing_N_to_1)
+- [factorail of below N number](Recursion/factorailOfbelowNnumber.cpp)
+
 ## How to Use
 
 1. Clone the repository: `git clone https://github.com/sampat646/DSA.git`
