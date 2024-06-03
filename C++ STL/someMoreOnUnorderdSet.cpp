@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
     s.insert(2);
     s.insert(3);
     s.insert(4);
-    // cbegin() returns a constant iterator pointing to the first element in the unordered_set.
+    // cbegin() returns a constant iterator pointing to the first element in the unordered_set
     // cend() returns a constant iterator pointing to one past the last element in the unordered_set.
     for (auto it = s.cbegin(); it != s.cend(); it++)
     {
