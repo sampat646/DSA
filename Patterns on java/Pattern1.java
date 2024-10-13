@@ -11,10 +11,12 @@ public class Pattern1 {
         // Pattern11(4);
         // pattern12(4);
         // pattern3(4);
+        // pattern4(5);
+        // pattern5(5);
         // pattern6(5);
         // Pattern7(5);
         // pattern8(5);
-        Pattern9(5);
+        // Pattern9(5);
     }
 
     public static void Pattern11(int n) {
@@ -28,6 +30,12 @@ public class Pattern1 {
             System.out.println();
 
         }
+        /*
+          output:  * 
+                   * *
+                   * * *
+                   * * * *
+         */
     }
 
     public static void pattern12(int n) {
@@ -38,6 +46,12 @@ public class Pattern1 {
             }
             System.out.println();
         }
+        /*
+         * output: * * * * 
+                   * * *
+                   * *
+                   *
+         */
     }
 
     public static void pattern3(int n) {
@@ -48,6 +62,12 @@ public class Pattern1 {
             }
             System.out.println();
         }
+        /*
+         * output:1 
+                  1 2
+                  1 2 3
+                  1 2 3 4
+         */
     }
 
     public static void pattern4(int n) {
@@ -64,6 +84,14 @@ public class Pattern1 {
             }
             System.out.println();
         }
+        /*
+         * output:
+            *       *
+                  * *
+                * * *
+              * * * *
+            * * * * *
+         */
     }
 
     public static void pattern5(int n) {
@@ -78,6 +106,15 @@ public class Pattern1 {
             }
             System.out.println();
         }
+        /*
+         * output:
+         *     * 
+              * *
+             * * *
+            * * * *
+           * * * * *
+         */
+       
     }
 
     public static void pattern6(int n) {
@@ -93,6 +130,7 @@ public class Pattern1 {
             }
             System.out.println();
         }
+       
     }
 
     public static void Pattern7(int n) {
@@ -103,6 +141,14 @@ public class Pattern1 {
 
             System.out.println();
         }
+         /*
+         * output:
+         * 1
+           1 2
+           1 2 3
+           1 2 3 4
+           1 2 3 4 5
+         */
 
     }
 
@@ -114,6 +160,14 @@ public class Pattern1 {
             }
             System.out.println();
         }
+         /*
+         * output:
+         * 1 2 3 4 5
+           1 2 3 4
+           1 2 3
+           1 2
+           1
+         */
     }
 
     public static void Pattern9(int n) {
