@@ -11,7 +11,10 @@ public class Pattern1 {
         // Pattern11(4);
         // pattern12(4);
         // pattern3(4);
-        pattern6(5);
+        // pattern6(5);
+        // Pattern7(5);
+        // pattern8(5);
+        Pattern9(5);
     }
 
     public static void Pattern11(int n) {
@@ -92,4 +95,38 @@ public class Pattern1 {
         }
     }
 
+    public static void Pattern7(int n) {
+        for (int var1 = 1; var1 <= n; ++var1) {
+            for (int var2 = 1; var2 <= var1; ++var2) {
+                System.out.print(var2);
+            }
+
+            System.out.println();
+        }
+
+    }
+
+    public static void pattern8(int n) {
+
+        for (int row = 1; row <= n; row++) { // if we row is start with the 1<=n
+            for (int col = 1; col <= n - row + 1; col++) { // here you will formula will n-row+1 if s:0 n-row
+                System.out.print(col);
+            }
+            System.out.println();
+        }
+    }
+
+    public static void Pattern9(int n) {
+        for (int row = 1; row <= n; row++) {
+            for (int col = 1; col <= n; col++) {
+                if (col == 1 || col == n  || row == 1 || row == n ) {
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
 }
