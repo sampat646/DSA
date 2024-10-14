@@ -16,7 +16,7 @@ public class Pattern1 {
         // pattern6(5);
         // Pattern7(5);
         // pattern8(5);
-        Pattern9(5);
+        // Pattern9(5);
     }
 
     public static void Pattern11(int n) {
