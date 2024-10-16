@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 public class ArrayLis {
     public static void main(String[] args) {
         ArrayList <Integer> one = new ArrayList<>();
@@ -33,6 +34,27 @@ public class ArrayLis {
 
         //getting the size of the arraylist
         System.out.println(one.size());//3
+
+        //printing the array list
+        for (int i = 0; i < one.size(); i++) {
+            System.out.print(one.get(i) + " ");
+        }
+        System.out.println();
+
+        //sorting the elements from using the collection class
+        Collections.sort(one);
+        System.out.println("After sorting the array");
+        System.out.println(one);
+
+        //we can sort the string also in alphabetical order
+        ArrayList<String> names = new ArrayList<>();
+        names.add("sam");
+        names.add("amit");
+        names.add("sumeet");
+        Collections.sort(names);
+        System.out.println(names);
+
+
 
 
     }
